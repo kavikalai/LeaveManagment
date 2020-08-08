@@ -1,0 +1,12 @@
+default: &default
+  adapter: mysql
+  pool: 5
+  timeout: 5000
+  username: root
+  password: 
+
+development:
+  <<: *default
+  database: leave
+  username: root
+  password: 
