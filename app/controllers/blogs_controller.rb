@@ -1,6 +1,5 @@
 class BlogsController < ApplicationController
 	before_action :authenticate_user!
-
 	layout 'blog'
 
   def index
